@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.container .Home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container .Home .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.container .Home .menu button {
+  font-size: 30px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: none;
+}
+.container .Home .menu button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 10px gray;
+}
+.container .Home .menu button:active {
+  font-size: 40px;
+  box-shadow: 0px 0px 15px 15px gray;
+}
+.container .task_1 {
+  display: none;
+  width: 100%;
+  height: 100vh;
+}
+.container .task_1 .box {
+  margin: 30px auto;
+  width: 500px;
+  border: 1px solid gray;
+  padding: 50px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .task_1 .box .box-1 {
+  margin: 30px;
+}
+.container .task_1 .box .box-1 h2 {
+  font-size: 50px;
+  text-align: center;
+}
+.container .task_1 .box .box-2 {
+  margin: 30px;
+}
+.container .task_1 .box .box-2 input {
+  width: 100%;
+  padding: 20px;
+  font-size: 30px;
+}
+.container .task_1 .box #button {
+  margin: 30px;
+  background-color: green;
+  border: none;
+  padding: 20px 30px;
+  font-size: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.container .task_1 .box #button:hover {
+  cursor: pointer;
+}
+.container .task_1 .box #button:active {
+  box-shadow: 0px 0px 10px 10px green;
+}
+.container .task_1 .box .box-3 {
+  margin: 30px;
+}
+.container .task_1 .box .box-3 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .task_1 .box .box-3 ul .delete_btn {
+  margin-left: 60px;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+.container .task_1 .box .box-3 ul .check {
+  color: crimson;
+  text-decoration: line-through;
+}
+.container .task_1 .box .box-3 ul li {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .task_1 .box .box-3 ul li:hover {
+  cursor: pointer;
+}
+.container .task_1 #back {
+  margin: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  font-size: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.container .task_1 #back:hover {
+  cursor: pointer;
+}
+.container .task_1 #back:active {
+  box-shadow: 0px 0px 10px 10px red;
+}
+.container .task_2 {
+  display: none;
+  width: 100%;
+  height: 100vh;
+}
+.container .task_2 .box {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid gray;
+  gap: 30px;
+  padding: 50px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .task_2 .box #textarea {
+  width: 100%;
+  height: 50px;
+}
+.container .task_2 .box .button button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+.container .task_2 .box .button button:hover {
+  cursor: pointer;
+}
+.container .task_2 .box .button button:active {
+  box-shadow: 0px 0px 10px 10px gray;
+}
+.container .task_2 #back2 {
+  margin: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  font-size: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.container .task_2 #back2:hover {
+  cursor: pointer;
+}
+.container .task_2 #back2:active {
+  box-shadow: 0px 0px 10px 10px red;
+}
+.container .task_3 {
+  display: none;
+  width: 100%;
+  height: 100vh;
+}
+.container .task_3 .box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.container .task_3 .box textarea {
+  font-size: 20px;
+  padding: 10px 15px;
+}
+.container .task_3 .box input {
+  font-size: 20px;
+  padding: 10px 15px;
+}
+.container .task_3 .box button {
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+}
+.container .task_3 .box button:hover {
+  cursor: pointer;
+}
+.container .task_3 .box button:active {
+  box-shadow: 0px 0px 10px 10px gray;
+}
+.container .task_3 #back3 {
+  margin: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  font-size: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.container .task_3 #back3:hover {
+  cursor: pointer;
+}
+.container .task_3 #back3:active {
+  box-shadow: 0px 0px 10px 10px red;
+}
+.container .task_4 {
+  display: none;
+  width: 100%;
+  height: 100vh;
+}
+.container .task_4 .box {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .task_4 .box input {
+  font-size: 20px;
+  padding: 10px 15px;
+}
+.container .task_4 #back4 {
+  margin: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  font-size: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.container .task_4 #back4:hover {
+  cursor: pointer;
+}
+.container .task_4 #back4:active {
+  box-shadow: 0px 0px 10px 10px red;
+}
+
+@media (min-width: 300px) and (max-width: 650px) {
+  .container .task_1 #back {
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+  .container .task_2 .box {
+    width: 250px;
+  }
+  .container .task_2 .box .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container .task_2 #back2 {
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+  .container .task_3 #back {
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+  .container .task_4 #back {
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

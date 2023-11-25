@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sass/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="home" class="Home">
+            <div class="menu">
+                <button id="task-1">Task-1</button>
+                <button id="task-2">Task-2</button>
+                <button id="task-3">Task-3</button>
+                <button id="task-4">Task-4</button>
+            </div>
+        </div>
+        <div id="task_1" class="task_1">
+            <div class="box">
+                <div class="box-1">
+                    <h2>Todo List</h2>
+                </div>
+                <div class="box-2">
+                    <input type="text" placeholder="Enter your text" id="input">
+                </div>
+                <button id="button" onclick="addList()" >Click</button>
+                <div class="box-3">
+                    <ul id="ul">
+    
+                    </ul>
+                </div>    
+            </div>
+            <button id="back">back</button>
+        </div>
+        <div id="task_2" class="task_2">
+            <div class="box">
+                <h2>Enter the text to textarea</h2>
+                <textarea id="textarea">Enter the textarea</textarea>
+                <h3> number of words in the text: <p id="text" ></p></h3>
+                <div class="button">
+                    <button id="compute_btn">Compute the words</button>
+                    <button id="delete_btn">Delete</button>
+                </div>
+               
+            </div>
+            <button id="back2">back</button>
+        </div>
+        <div id="task_3" class="task_3">
+            <div class="box">
+                <textarea id="myTextarea">Assalomu aleykum, xush kelibsiz!</textarea>
+                    
+                    <input type="text" id="myInput" placeholder = "Meni  to'ldir" >
+                    <button id="click">Click</button>
+            </div>
+            <button id="back3">back</button>
+        </div>
+        <div id="task_4" class="task_4">
+            <div class="box">
+                <input type="file" id="myFile" onchange="showFileSize()">
+            </div>
+            <button id="back4">back</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>    
+</body>
+</html>
